@@ -30,6 +30,7 @@
 * ES6 support with babel
 * Boilerplate sketch in either Instance mode or Global mode
 * nvm support
+* <a href="https://facebook.github.io/jest/docs/">Jest testing suite</a>
 
 
 ## <a name="start"></a> Quick Start
@@ -50,6 +51,8 @@ You can change the port on which the HTTP server listens and more dev server rel
 
 * `npm start`: Runs the dev server and opens the project in your standard browser
 * `npm run build`: Builds the whole project and saves the resulting bundles in the `dist` directory
+* `npm run test`: Run tests using Jest
+* `npm run test:watch`: Run tests using Jest in watch mode
 
 ## <a name="project-structure"></a>Project structure
 
