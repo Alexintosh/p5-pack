@@ -3,6 +3,7 @@ export function Sketch(s) {
 
     const width = 500;
     const height = 500;
+    let off = 0.0;
 
     s.setup = () => {
         s.createCanvas(width, height);
@@ -12,7 +13,9 @@ export function Sketch(s) {
         y = height / 2;
     };
 
-    s.draw = () => {
+    s.draw = () => {        
+        off = off + .01;
+        backgroundColor = s.color(( s.noise(off) * 255 ), ( s.noise(off) * 255 ), ( s.noise(off) * 255 ));
         s.background(backgroundColor);
         s.fill(s.color(255, 0, 0));
         s.ellipse(x, y, 100, 100);
