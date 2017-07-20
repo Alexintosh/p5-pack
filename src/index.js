@@ -1,4 +1,4 @@
-import p5 from 'p5';
-import { Sketch } from './sketch';
+import {default as P5} from 'p5'
+import { Sketch } from './sketch'
 
-export const instance = new p5(Sketch);
+export const Instance = new P5(Sketch)

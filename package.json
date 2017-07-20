@@ -6,13 +6,22 @@
   "scripts": {
     "test": "jest --coverage",
     "test:watch": "jest --watch",
+    "lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --fix --verbose | snazzy",
+    "validate": "npm-run-all --parallel test lint:fix",
+    "precommit": "npm run validate",
     "build": "webpack",
     "watch": "webpack --progress --watch",
     "start": "webpack-dev-server --open"
   },
+  "standard": {
+    "ignore": [
+      "*.test.js"
+    ]
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Alessio Delmonti",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
@@ -23,7 +32,13 @@
   "dependencies": {
     "clean-webpack-plugin": "^0.1.16",
     "html-webpack-plugin": "^2.29.0",
+    "husky": "^0.14.3",
+    "install": "^0.10.1",
+    "npm": "^5.3.0",
+    "npm-run-all": "^4.0.2",
     "p5": "^0.5.11",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2",
     "webpack-dev-server": "^2.5.1"
   }
 }
