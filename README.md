@@ -1,3 +1,5 @@
+<img src="https://github.com/Alexintosh/p5-pack/blob/master/header.png?raw=true" alt="p5-pack logo">
+
 <div align="center"><strong>Start your next P5 project in seconds</strong></div>
 
 <br />
