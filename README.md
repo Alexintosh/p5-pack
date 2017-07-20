@@ -21,6 +21,8 @@
   <a href="https://coveralls.io/r/Alexintosh/p5-pack">
     <img src="https://coveralls.io/repos/github/Alexintosh/p5-pack/badge.svg" alt="Test Coverage" />
   </a>
+  
+  [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 </div>
 
 
@@ -31,7 +33,10 @@
 * Boilerplate sketch in either Instance mode or Global mode
 * nvm support
 * <a href="https://facebook.github.io/jest/docs/">Jest testing suite</a>
+* JavaScript Standard Style
+* Test and Linting check before commit (husky)
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
 ## <a name="start"></a> Quick Start
 
@@ -53,6 +58,9 @@ You can change the port on which the HTTP server listens and more dev server rel
 * `npm run build`: Builds the whole project and saves the resulting bundles in the `dist` directory
 * `npm run test`: Run tests using Jest
 * `npm run test:watch`: Run tests using Jest in watch mode
+* `npm run lint`: Run <a href="https://github.com/standard/standard">standard</a> to check JavaScript Standard Style 
+* `npm run lint:fix`: Run <a href="https://github.com/standard/standard">standard</a> to check JavaScript Standard Style and fixes problem automatically
+* `npm run lint:fix`: Run <a href="https://github.com/standard/standard">standard</a> to check JavaScript Standard Style and fixes problem automatically
 
 ## <a name="project-structure"></a>Project structure
 
