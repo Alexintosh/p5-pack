@@ -30,6 +30,13 @@
 * nvm support
 
 
+## <a name="start"></a> Quick Start
+
+1. Clone this repo using `git clone https://github.com/Alexintosh/p5-pack
+2. Move to the appropriate directory: `cd p5-pack`.<br />
+3. Run `yarn install` in order to install dependencies and clean the git repo.<br />
+   *At this point you can run `npm run start` to see the example app at `http://localhost:8080/`.*
+
 ## <a name="dev-server"></a>Dev server
 The dev server builds your whole project through the webpack build pipeline and keeps the generated artifacts in its memory (bundled files are not saved to your disk). It automatically detects when something in your files has changed, builds the changed code with webpack and automatically reloads the browser window.
 
