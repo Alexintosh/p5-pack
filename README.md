@@ -60,7 +60,7 @@ You can change the port on which the HTTP server listens and more dev server rel
 * `npm run test:watch`: Run tests using Jest in watch mode
 * `npm run lint`: Run <a href="https://github.com/standard/standard">standard</a> to check JavaScript Standard Style 
 * `npm run lint:fix`: Run <a href="https://github.com/standard/standard">standard</a> to check JavaScript Standard Style and fixes problem automatically
-* `npm run lint:fix`: Run <a href="https://github.com/standard/standard">standard</a> to check JavaScript Standard Style and fixes problem automatically
+* `npm run validate`: Runs linting and testing in parallel for maximum efficiency (npm-run-all)
 
 ## <a name="project-structure"></a>Project structure
 
