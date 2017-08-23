@@ -62,7 +62,14 @@ You can change the port on which the HTTP server listens and more dev server rel
 * `npm run lint:fix`: Run <a href="https://github.com/standard/standard">standard</a> to check JavaScript Standard Style and fixes problem automatically
 * `npm run validate`: Runs linting and testing in parallel for maximum efficiency (npm-run-all)
 
-## <a name="project-structure"></a>Project structure
+## How can I support the developer?
+- Star our GitHub repo :star:
+- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
+- Follow me on [Twitter](https://twitter.com/alexintosh) :feet:
+
+## Can I hire you?
+Yes!  Ping me on [Twitter](https://twitter.com/alexintosh) or get in touch by [mail](mailto:alessio.d@gmail.com)
+I will be happy to work with you!
 
 ### Directory Tree
 
